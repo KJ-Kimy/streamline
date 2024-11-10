@@ -8,7 +8,7 @@ st.title("주주현황 대시보드")
 st.subheader("주식증감내역")
 
 
-data = pd.read_csv('/df_1110.csv')
+data = pd.read_csv('df_1110.csv')
 # NaN 값을 특정 값으로 채워서 비교
 data['종목발행사유명'] = data['종목발행사유명'].fillna('결측치')
 st.dataframe(data)
