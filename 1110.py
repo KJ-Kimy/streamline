@@ -4,7 +4,7 @@ st.set_page_config(
     page_title="주식증감현황"
 )
 
-st.title("주주현황 대시보드")
+st.title("주주환원현황 대시보드")
 st.subheader("주식증감내역")
 
 
